@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee BGCOLOR="#99CCFF" HEIGHT="100%" WIDTH="100%"  DIRECTION="right" LOOP="9" >
+        مرحبا بكم تفضلوا في تقديم شكواكم
+       </marquee>
+    <div id="slider">
+		<div id="box">
+            <img src="a.jpg">
+            <img src="b.jpg">
+            <img src="c.jpg">
+     </div>
+
+		<!-- buttons for controls slider -->
+		<button class="prew fa fa-chevron-left" onclick="prewImage()"></button>
+		<button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+    </div>
+    <ul>
+        <li><a href="#home"> UNHCR</a></li>
+        <li><a href="#home">شكاوي مخيم الزعتري </a> </li>
+       <li><a href="#home"> نفديم الشكوى </a></li>
+      </ul>
+       
+        
+    <script src="main.js"></script>
+</body>
+</html>
