@@ -29,7 +29,17 @@ img{
         	border-radius: 0px 10px 10px 0px;
         }
         ul {
-            list-style-type: none;
+			list-style-type: none;
+			color: #000;
             float: right;
           } 
-            
+		  hr {
+			display: block;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+			margin-left: auto;
+			margin-right: auto;
+			border-style: inset;
+			border-width: 2px;
+			color: black;
+		  }
