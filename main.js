@@ -1,7 +1,7 @@
 var slider_content = document.getElementById('box');
 
 // contain images in an array
-var image = ['a','b', 'c','d','e','f','g','h'];
+var image = ['a','b', 'c'];
 
 var i = image.length;
 
